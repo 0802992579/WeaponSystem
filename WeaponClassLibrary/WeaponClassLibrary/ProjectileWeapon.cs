@@ -14,10 +14,16 @@ namespace WeaponClassLibrary
         public string Projectile;
 
         public ProjectileWeapon(string name, int weight, int damage, int range, int value, 
-            string modifier,string projectile)
+            string modifier)
             : base(name, weight, "Piercing", damage, range, value, modifier)
         {
-            Projectile = projectile;
+            
+        }
+
+        public ProjectileWeapon(string name, int weight, int range, int value, string modifier)
+           : base(name, weight, " ", 0, range, value, modifier)
+        {
+
         }
 
         public override string ToString()

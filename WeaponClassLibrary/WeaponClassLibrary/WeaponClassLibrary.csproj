@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrow.cs" />
+    <Compile Include="Bow.cs" />
     <Compile Include="MeleeWeapon.cs" />
     <Compile Include="Projectile.cs" />
     <Compile Include="ProjectileWeapon.cs" />
