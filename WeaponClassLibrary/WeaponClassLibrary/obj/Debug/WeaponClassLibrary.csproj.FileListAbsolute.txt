@@ -1,0 +1,4 @@
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\WeaponClassLibrary\WeaponClassLibrary\bin\Debug\WeaponClassLibrary.dll
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\WeaponClassLibrary\WeaponClassLibrary\bin\Debug\WeaponClassLibrary.pdb
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\WeaponClassLibrary\WeaponClassLibrary\obj\Debug\WeaponClassLibrary.dll
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\WeaponClassLibrary\WeaponClassLibrary\obj\Debug\WeaponClassLibrary.pdb

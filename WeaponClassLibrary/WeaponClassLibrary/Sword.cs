@@ -8,8 +8,8 @@ namespace WeaponClassLibrary
 {
     class Sword : MeleeWeapon
     {
-        public Sword(string name, int weight, int damage, int range, int value, string modifier)
-            : base(name, weight, damage, range, value, modifier)
+        public Sword(string modifier, string name, double weight, string damageType, int damage, double range, double value)
+            : base(modifier, name, weight, damageType, damage, range, value)
         {
             
         }

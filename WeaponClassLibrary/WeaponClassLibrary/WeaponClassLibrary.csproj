@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrow.cs" />
     <Compile Include="Bow.cs" />
     <Compile Include="Gun.cs" />
     <Compile Include="MeleeWeapon.cs" />

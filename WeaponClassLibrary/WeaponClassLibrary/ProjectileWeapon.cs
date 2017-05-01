@@ -13,15 +13,14 @@ namespace WeaponClassLibrary
     {
         public string Projectile;
 
-        public ProjectileWeapon(string name, int weight, int damage, int range, int value, 
-            string modifier)
-            : base(name, weight, "Piercing", damage, range, value, modifier)
+        public ProjectileWeapon(string modifier, string name, double weight, int damage, double range, double value)
+            : base(modifier, name, weight, "Piercing", damage, range, value)
         {
             
         }
 
-        public ProjectileWeapon(string name, int weight, int range, int value, string modifier)
-           : base(name, weight, " ", 0, range, value, modifier)
+        public ProjectileWeapon(string modifier, string name, double weight, double range, double value)
+           : base(modifier, name, weight, " ", 0, range, value)
         {
 
         }

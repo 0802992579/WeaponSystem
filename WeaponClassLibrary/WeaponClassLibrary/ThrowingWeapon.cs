@@ -11,8 +11,8 @@ namespace WeaponClassLibrary
 {
     class ThrowingWeapon : Weapon
     {
-        public ThrowingWeapon(string name, int weight, int damage, int range, int value, string modifier)
-            : base(name, weight, "Piercing", damage, range, value, modifier)
+        public ThrowingWeapon(string modifier, string name, double weight, int damage, double range, double value )
+            : base(modifier, name, weight, "Piercing", damage, range, value)
         {
         }
 

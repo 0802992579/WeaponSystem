@@ -12,15 +12,15 @@ namespace WeaponClassLibrary
 {
     public class Weapon
     {
+        public string Modifier { get; set; }
         public string Name { get; set; }
-        public int Weight { get; set; }
+        public double Weight { get; set; }
         public string DamageType { get; set; }
         public int Damage { get; set; }
-        public int Range { get; set; }
-        public int Value { get; set; }
-        public string Modifier { get; set; }
-
-        public Weapon(string name, int weight, string damagetype, int damage, int range, int value, string modifier)
+        public double Range { get; set; }
+        public double Value { get; set; }
+      
+        public Weapon(string modifier, string name, double weight, string damagetype, int damage, double range, double value)
         {
             Name = name;
             Weight = weight;
@@ -33,8 +33,8 @@ namespace WeaponClassLibrary
 
         public override string ToString()
         {
-            return string.Format("Name: {0}\nWeight: {1}\nDamageType: {2}\nDamage: {3}\nRange: {4}\nValue: {5}\nModifier: {6}",
-                Name, Weight, DamageType, Damage, Range, Value, Modifier);
+            return string.Format("Name: {0} {1}\nWeight: {2:N2}\nDamageType: {3}\nDamage: {4}\nRange: {5:N2}\nValue: {6:N2}",
+                 Modifier, Name, Weight, DamageType, Damage, Range, Value);
         }
 
         public virtual void CreateRandom()

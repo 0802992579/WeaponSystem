@@ -12,8 +12,8 @@ namespace WeaponClassLibrary
 {
     public class MeleeWeapon : Weapon
     {
-        public MeleeWeapon(string name, int weight, int damage, int range, int value, string modifier)
-            : base(name, weight, "Blunt", damage, range, value, modifier)
+        public MeleeWeapon(string modifier, string name, double weight,string damageType, int damage, double range, double value)
+            : base(modifier, name, weight, damageType, damage, range, value)
         {
         }
 
