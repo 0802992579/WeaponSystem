@@ -10,11 +10,11 @@ Höfundur Ólafur Ásdísarson
 
 namespace WeaponClassLibrary
 {
-    class Gun : ProjectileWeapon
+    public class Gun : ProjectileWeapon
     {
         Projectile bullet = new Projectile("Bullet", 0.5, "Piercing", 100, 0.1);
-        public Gun(string modifier, string name, double weight, double range, double value)
-             : base(modifier, name, weight, range, value)
+        public Gun(string modifier, double weight, double range, double value)
+             : base(modifier, "Gun", weight, range, value)
         {
             this.DamageType = bullet.DamageType;
             this.Damage = bullet.Damage;

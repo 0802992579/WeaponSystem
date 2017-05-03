@@ -37,6 +37,11 @@ namespace WeaponClassLibrary
                  Modifier, Name, Weight, DamageType, Damage, Range, Value);
         }
 
+        public virtual string ShortDescription()
+        {
+            return string.Format("{0} {1}", Modifier, Name);
+        }
+
         public virtual void CreateRandom()
         {
             //nothing done      

@@ -12,8 +12,8 @@ namespace WeaponClassLibrary
     public class Bow : ProjectileWeapon
     {
         Projectile arrow = new Projectile("Arrow", 10, "Piercing", 2, 1);
-        public Bow(string modifier, string name, int weight, int range, int value)
-            : base(modifier, name, weight, range, value)
+        public Bow(string modifier, double weight, double range, double value)
+            : base(modifier, "Bow", weight, range, value)
         {
             this.DamageType = arrow.DamageType;
             this.Damage = arrow.Damage;

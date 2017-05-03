@@ -10,10 +10,10 @@ Höfundur Ólafur Ásdísarson
 
 namespace WeaponClassLibrary
 {
-    class Spear : ThrowingWeapon
+    public class Spear : ThrowingWeapon
     {
-        public Spear(string modifier, string name, double weight,  int damage, double range, double value )
-            : base(modifier, name, weight, damage, range, value)
+        public Spear(string modifier, double weight,  int damage, double range, double value )
+            : base(modifier, "Spear", weight, damage, range, value)
         {
 
         }

@@ -9,7 +9,7 @@ Höfundur Ólafur Ásdísarson
 */
 namespace WeaponClassLibrary
 {
-    class ThrowingWeapon : Weapon
+    public class ThrowingWeapon : Weapon
     {
         public ThrowingWeapon(string modifier, string name, double weight, int damage, double range, double value )
             : base(modifier, name, weight, "Piercing", damage, range, value)
@@ -24,6 +24,11 @@ namespace WeaponClassLibrary
         public override void CreateRandom()
         {
             base.CreateRandom();
+        }
+
+        public override string ShortDescription()
+        {
+            return base.ShortDescription();
         }
     }
 }

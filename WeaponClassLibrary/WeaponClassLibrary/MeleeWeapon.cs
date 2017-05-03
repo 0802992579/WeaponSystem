@@ -26,5 +26,10 @@ namespace WeaponClassLibrary
         {
             base.CreateRandom();
         }
+
+        public override string ShortDescription()
+        {
+            return base.ShortDescription();
+        }
     }
 }
