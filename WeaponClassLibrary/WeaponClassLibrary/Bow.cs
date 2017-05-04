@@ -18,5 +18,10 @@ namespace WeaponClassLibrary
             this.DamageType = arrow.DamageType;
             this.Damage = arrow.Damage;
         }
+
+        public override string ShortDescription()
+        {
+            return base.ShortDescription();
+        }
     }
 }

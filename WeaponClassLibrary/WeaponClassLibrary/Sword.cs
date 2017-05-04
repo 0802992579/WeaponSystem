@@ -13,5 +13,10 @@ namespace WeaponClassLibrary
         {
             
         }
+
+        public override string ShortDescription()
+        {
+            return base.ShortDescription();
+        }
     }
 }
