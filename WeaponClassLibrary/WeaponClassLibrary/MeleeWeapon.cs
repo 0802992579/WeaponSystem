@@ -17,19 +17,5 @@ namespace WeaponClassLibrary
         {
         }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
-        public override void CreateRandom()
-        {
-            base.CreateRandom();
-        }
-
-        public override string ShortDescription()
-        {
-            return base.ShortDescription();
-        }
     }
 }

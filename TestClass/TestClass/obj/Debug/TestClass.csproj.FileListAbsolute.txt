@@ -1,0 +1,8 @@
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\bin\Debug\TestClass.exe.config
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\bin\Debug\TestClass.exe
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\bin\Debug\TestClass.pdb
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\bin\Debug\WeaponClassLibrary.dll
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\bin\Debug\WeaponClassLibrary.pdb
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\obj\Debug\TestClass.csprojResolveAssemblyReference.cache
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\obj\Debug\TestClass.exe
+C:\Users\Ásdís\Documents\Visual Studio 2015\Projects\TestClass\TestClass\obj\Debug\TestClass.pdb

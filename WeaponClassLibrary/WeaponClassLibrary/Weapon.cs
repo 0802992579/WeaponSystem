@@ -31,20 +31,36 @@ namespace WeaponClassLibrary
             Modifier = modifier;
        }
 
-        public override string ToString()
+        public override string ToString() //Describes weapon
         {
-            return string.Format("Name: {0} {1}\nWeight: {2:N2}\nDamageType: {3}\nDamage: {4}\nRange: {5:N2}\nValue: {6:N2}",
+            return string.Format("Name: {0} {1}\nWeight: {2:N2} kg\nDamageType: {3}\nDamage: {4}\nRange: {5:N2} m\nValue: {6:N2} gold coins",
                  Modifier, Name, Weight, DamageType, Damage, Range, Value);
         }
 
-        public virtual string ShortDescription()
+        public virtual string ShortDescription() //returns name
         {
             return string.Format("{0} {1}", Modifier, Name);
         }
 
-        public virtual void CreateRandom()
+        public static void CreateRandom()
         {
             //nothing done      
+        }
+
+        //calculates value for properties for random item return double
+        public static double calc_value(List<double> list, int index, double base_value, double rnd_nr)
+        {
+            double value =  base_value + list[index] + rnd_nr;
+            if (value < 0)  { value = 0; }
+            return value;
+        }
+
+        //calculates value for properties for random item return int
+        public static int calc_value(List<int> list, int index, int base_value, int rnd_nr)
+        {
+            int value = base_value + list[index] + rnd_nr;
+            if (value < 0) { value = 0; }
+            return value;
         }
     }
 }

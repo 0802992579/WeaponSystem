@@ -15,21 +15,7 @@ namespace WeaponClassLibrary
             : base(modifier, name, weight, "Piercing", damage, range, value)
         {
         }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
-        public override void CreateRandom()
-        {
-            base.CreateRandom();
-        }
-
-        public override string ShortDescription()
-        {
-            return base.ShortDescription();
-        }
+    
     }
 }
 
