@@ -19,7 +19,7 @@ namespace TestClass
             Inventory inventory = new Inventory();
             Random random = new Random();
             double money = 0;
-        
+            firstWeapon(inventory);
 
             string userInput;
             int nr = 0;
@@ -95,10 +95,10 @@ namespace TestClass
             Console.WriteLine("Menu");
             Console.WriteLine("---------------------------");
             Console.WriteLine("L - list inventory");
-            Console.WriteLine("F - find random weapon");
-            Console.WriteLine("D - drop item from inventory");
-            Console.WriteLine("I - descripe item");
-            Console.WriteLine("S - sell item");
+            Console.WriteLine("F - find a random weapon");
+            Console.WriteLine("D - drop an item from inventory");
+            Console.WriteLine("I - describe an item");
+            Console.WriteLine("S - sell an item");
             //Console.WriteLine("M - show money");
             Console.WriteLine("Q - quit");
             Console.Write("Choose: ");
@@ -122,6 +122,11 @@ namespace TestClass
         public static void ListMoney(double money) //lists money
         {
             Console.WriteLine("You have got {0:N2} gold coins", money);
+        }
+        public static void firstWeapon(Inventory inventory) //creates weapon to start with
+        {
+            Sword sword = new Sword("Your first", 2.1, "Slashing", 4, 1.2, 1.1);
+            inventory.Add(sword);
         }
     }
 }
